@@ -1,6 +1,6 @@
 import { SITENAME } from "@/lib/constants";
-import { useEffect } from 'react';
-import { loadScript } from '@/lib/utils";
+import { useEffect } from "react";
+import { loadScript } from "@/lib/utils";
 
 const navigation = [
     {
