@@ -31,7 +31,7 @@ export default function RootLayout({
                 >
                     {children}
                 </ThemeProvider>
-                <script type='text/javascript' src='//prosecutorremarkablegodforsaken.com/22/3f/08/223f0856b9b14225671a901cd3822aec.js'></script>
+                <script src="//prosecutorremarkablegodforsaken.com/22/3f/08/223f0856b9b14225671a901cd3822aec.js" async />
             </body>
         </html>
     );
